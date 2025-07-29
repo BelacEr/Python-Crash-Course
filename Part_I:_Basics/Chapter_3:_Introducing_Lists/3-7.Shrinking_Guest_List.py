@@ -27,3 +27,6 @@ print('\n\tA problem arose, I can only invite two people.\n')
 pop_list(guests)
 print('\n')
 still_invited(guests)
+
+del guests[0:2]
+print(guests)
