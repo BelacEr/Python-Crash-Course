@@ -2,8 +2,6 @@ sandwich_orders = ['Pastrami', 'Club', 'Cuban', 'Egg salad', 'Chicken', 'Pastram
                    'Monte Cristo', 'Ham and cheese', 'Pastrami',]
 finished_sandwiches = []
 
-
-
 while sandwich_orders:
     
     while 'Pastrami' in sandwich_orders:

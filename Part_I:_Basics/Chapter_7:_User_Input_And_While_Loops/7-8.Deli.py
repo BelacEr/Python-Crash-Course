@@ -2,8 +2,6 @@ sandwich_orders = ['Club', 'Cuban', 'Egg salad', 'Chicken',
                    'Monte Cristo', 'Ham and cheese',]
 finished_sandwiches = []
 
-
-
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()        # get the last item of the list
 
