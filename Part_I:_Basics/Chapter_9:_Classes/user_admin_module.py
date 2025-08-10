@@ -1,4 +1,5 @@
 class User:
+
     def __init__(self, first_name, last_name, city, age):
         self.first_name = first_name    # attribute
         self.last_name = last_name
@@ -25,3 +26,24 @@ class User:
     def reset_login_attempts(self):
         """Method that resets the value of login_attempt to 0."""
         self.login_attempts = 0
+
+class Admin(User):
+
+    def __init__(self, first_name, last_name, city, age):
+        """       
+        Initialize attributes of the parent class.
+        Then initialize attributes that shows administrator privileges.
+        """
+        super().__init__(first_name, last_name, city, age)
+        self.privileges = Privileges()
+
+
+class Privileges:
+    def __init__(self):
+        self.privileges = ['can add post', 'can delete post', 'can ban user']
+
+    def show_privileges(self):
+        """Method that shows administrator privileges."""
+        print("\nAdministrator privileges:")
+        for privilege in self.privileges:
+            print(f"- {privilege}")
