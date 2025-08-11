@@ -8,4 +8,3 @@ lottery_number = sample(lottery_list, 4)
 print("🏆 Lottery Results 🏆")
 print("---------------------")
 print(f"The winning ticket: {lottery_number}")
-
