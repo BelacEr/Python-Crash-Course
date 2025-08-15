@@ -1,9 +1,7 @@
-from pathlib import Path
+from pathlib import Path        # Import the Path function
 
 path = Path('learning_python.txt')
 contents = path.read_text()
 
-lines = contents.splitlines()
-
-for line in lines:
+for line in contents.splitlines():  # Skip the temporary variable
     print(line)
