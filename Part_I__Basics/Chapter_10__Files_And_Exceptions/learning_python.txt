@@ -1,0 +1,5 @@
+In Python you can do Data analysis and Machine Learning.
+In Python you can do Web Development.
+In Python you can Automation or scripting.
+In Python you can Software testing and prototyping.
+In Python you can do everyday tasks.
