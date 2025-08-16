@@ -6,7 +6,7 @@ def your_favorite_number():
     path = Path('favorite_number.json')
     contents = path.read_text()
     number = json.loads(contents)
-    print(f"Your favorite number is {number}!")
+    print(f"I know your favorite number! It's {number}.")
 
 if __name__ == '__main__':
     your_favorite_number()
