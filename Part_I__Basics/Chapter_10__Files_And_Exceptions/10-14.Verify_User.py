@@ -29,7 +29,7 @@ def get_new_username(path: Path) -> None:
     return username
 
 
-def main():
+def main(z):
     """Greet the user by name."""
     path = Path('username.json')
     username = get_stored_username(path)
